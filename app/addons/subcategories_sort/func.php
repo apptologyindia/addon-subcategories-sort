@@ -2,7 +2,8 @@
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
-function fn_subcategories_sort_get_categories_pre(&$params, &$lang_code) {
+function fn_subcategories_sort_get_categories_pre(&$params, &$lang_code)
+{
     $default_params = array(
         'category_id' => 0,
         'visible' => false,
